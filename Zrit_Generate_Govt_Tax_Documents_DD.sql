@@ -5,8 +5,8 @@ Exec Zrit_Generate_Govt_Tax_Documents_DD '23','CI2659260000377','RM_SI'
 CREATE    or alter         Proc Zrit_Generate_Govt_Tax_Documents_DD
 (  
  @Ou   Int,  
- @TranNo  VarChar(20),  
- @TranType VarChar(20)   
+ @TranNo  VarChar(200),  
+ @TranType VarChar(200)   
 )  
 As   
 Begin   
@@ -514,6 +514,7 @@ end
    */
    /*Code commented by  krishnan end*/
 End 
+
 
 
 
